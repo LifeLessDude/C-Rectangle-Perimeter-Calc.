@@ -5,14 +5,19 @@ using namespace std:
 
 int main()
 {
+  // This is a Calculator for Perimeters Of a rectangle
+
+  // First, We take the value of the length
   cout << "Enter length:" << endl;
   double length;
   cin >> length;
   
+  // Then, We take the Value of the breadth
   cout << "Enter Breadth:" << endl;
   double breadth;
   cin >> breadth;
   
+  //Finally , We do the necessary calculations and print to the console
   double peri = 2 * (length + breadth);
   
   cout << peri << endl;
