@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std:
+
+int main()
+{
+  cout << "Enter length:" << endl;
+  double length;
+  cin >> length;
+  
+  cout << "Enter Breadth:" << endl;
+  double breadth;
+  cin >> breadth;
+  
+  double peri = 2 * (length + breadth);
+  
+  cout << peri << endl;
+  return 0;
+]
